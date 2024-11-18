@@ -1,0 +1,54 @@
+# Entornos virtuales
+env/
+venv/
+.venv/
+
+# Archivos de configuración de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos del entorno
+.env
+.venv
+.envrc
+.python-version
+.mypy_cache/
+.pytest_cache/
+
+# Archivos de log
+*.log
+
+# Bases de datos locales
+*.sqlite3
+*.db
+
+# Archivos de IDEs y editores
+.idea/
+.vscode/
+.spyderproject
+.ropeproject
+
+# Archivos de Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
+
+# Archivos creados por pruebas
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Archivos de Docker
+docker-compose.override.yml
+
+# Otros
+*.swp
+.DS_Store
+Thumbs.db
