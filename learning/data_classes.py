@@ -80,3 +80,11 @@ for epoch in range(num_epochs):
         )
 
 model.eval()
+with torch.no_grad():
+    outputs = model(X_train)
+print(outputs)
+
+
+torch.set_printoptions(sci_mode=False)
+probas = torch.softmax(outputs, dim=1)
+print(probas)
